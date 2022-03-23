@@ -1,0 +1,1 @@
+INSERT INTO `payment_gateway` (`id`, `identity`, `agent`, `public_key`, `private_key`, `shop_id`, `secret_key`, `status`) VALUES (NULL, 'phone', 'Mobile Money' ,'+880 1746 40 68 01', '', '', '', '1');

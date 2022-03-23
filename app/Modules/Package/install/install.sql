@@ -1,0 +1,2 @@
+INSERT INTO `web_category` (`cat_id`, `slug`, `cat_name_en`, `cat_name_fr`, `parent_id`, `cat_image`, `cat_title1_en`, `cat_title1_fr`, `cat_title2_en`, `cat_title2_fr`, `menu`, `position_serial`, `status`) VALUES
+(3, 'package', 'Package', 'Paquet', 0, '/public/uploads/9c8b7f2ec430989768bedefde172e5ad.jpg', 'Pricing Plans', 'Plans de tarification', 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that', '', 1, 3, 1);

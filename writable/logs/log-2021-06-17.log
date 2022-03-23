@@ -1,0 +1,270 @@
+CRITICAL - 2021-06-17 04:38:31 --> Argument 1 passed to CodeIgniter\Validation\FormatRules::numeric() must be of the type string or null, array given, called in /home/bcoinbdtask/public_html/nishue_main/system/Validation/Validation.php on line 325
+#0 /home/bcoinbdtask/public_html/nishue_main/system/Validation/Validation.php(325): CodeIgniter\Validation\FormatRules->numeric(Array, NULL)
+#1 /home/bcoinbdtask/public_html/nishue_main/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules('level', 'Level', Array, Array, Array)
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Setting/Controllers/Admin/Setting.php(209): CodeIgniter\Validation\Validation->run()
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Setting\Controllers\Admin\Setting->commission_update()
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Setting\Controllers\Admin\Setting))
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-17 04:40:16 --> Argument 1 passed to CodeIgniter\Validation\FormatRules::numeric() must be of the type string or null, array given, called in /home/bcoinbdtask/public_html/nishue_main/system/Validation/Validation.php on line 325
+#0 /home/bcoinbdtask/public_html/nishue_main/system/Validation/Validation.php(325): CodeIgniter\Validation\FormatRules->numeric(Array, NULL)
+#1 /home/bcoinbdtask/public_html/nishue_main/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules('level', 'Level', Array, Array, Array)
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Setting/Controllers/Admin/Setting.php(217): CodeIgniter\Validation\Validation->run()
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Setting\Controllers\Admin\Setting->commission_update()
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Setting\Controllers\Admin\Setting))
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-17 04:40:48 --> Argument 1 passed to CodeIgniter\Validation\FormatRules::numeric() must be of the type string or null, array given, called in /home/bcoinbdtask/public_html/nishue_main/system/Validation/Validation.php on line 325
+#0 /home/bcoinbdtask/public_html/nishue_main/system/Validation/Validation.php(325): CodeIgniter\Validation\FormatRules->numeric(Array, NULL)
+#1 /home/bcoinbdtask/public_html/nishue_main/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules('level', 'Level', Array, Array, Array)
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Setting/Controllers/Admin/Setting.php(217): CodeIgniter\Validation\Validation->run()
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Setting\Controllers\Admin\Setting->commission_update()
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Setting\Controllers\Admin\Setting))
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-17 04:42:41 --> Argument 1 passed to CodeIgniter\Validation\FormatRules::numeric() must be of the type string or null, array given, called in /home/bcoinbdtask/public_html/nishue_main/system/Validation/Validation.php on line 325
+#0 /home/bcoinbdtask/public_html/nishue_main/system/Validation/Validation.php(325): CodeIgniter\Validation\FormatRules->numeric(Array, NULL)
+#1 /home/bcoinbdtask/public_html/nishue_main/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules('level', 'Level', Array, Array, Array)
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Setting/Controllers/Admin/Setting.php(217): CodeIgniter\Validation\Validation->run()
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Setting\Controllers\Admin\Setting->commission_update()
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Setting\Controllers\Admin\Setting))
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-17 04:43:04 --> Argument 1 passed to CodeIgniter\Validation\FormatRules::numeric() must be of the type string or null, array given, called in /home/bcoinbdtask/public_html/nishue_main/system/Validation/Validation.php on line 325
+#0 /home/bcoinbdtask/public_html/nishue_main/system/Validation/Validation.php(325): CodeIgniter\Validation\FormatRules->numeric(Array, NULL)
+#1 /home/bcoinbdtask/public_html/nishue_main/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules('level', 'Level', Array, Array, Array)
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Setting/Controllers/Admin/Setting.php(217): CodeIgniter\Validation\Validation->run()
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Setting\Controllers\Admin\Setting->commission_update()
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Setting\Controllers\Admin\Setting))
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-17 04:43:58 --> Argument 1 passed to CodeIgniter\Validation\FormatRules::numeric() must be of the type string or null, array given, called in /home/bcoinbdtask/public_html/nishue_main/system/Validation/Validation.php on line 325
+#0 /home/bcoinbdtask/public_html/nishue_main/system/Validation/Validation.php(325): CodeIgniter\Validation\FormatRules->numeric(Array, NULL)
+#1 /home/bcoinbdtask/public_html/nishue_main/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules('personal_invest', 'Personal Invest', Array, Array, Array)
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Setting/Controllers/Admin/Setting.php(217): CodeIgniter\Validation\Validation->run()
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Setting\Controllers\Admin\Setting->commission_update()
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Setting\Controllers\Admin\Setting))
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-17 04:45:51 --> Argument 1 passed to CodeIgniter\Validation\FormatRules::numeric() must be of the type string or null, array given, called in /home/bcoinbdtask/public_html/nishue_main/system/Validation/Validation.php on line 325
+#0 /home/bcoinbdtask/public_html/nishue_main/system/Validation/Validation.php(325): CodeIgniter\Validation\FormatRules->numeric(Array, NULL)
+#1 /home/bcoinbdtask/public_html/nishue_main/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules('level', 'Level', Array, Array, Array)
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Setting/Controllers/Admin/Setting.php(217): CodeIgniter\Validation\Validation->run()
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Setting\Controllers\Admin\Setting->commission_update()
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Setting\Controllers\Admin\Setting))
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-17 05:55:30 --> Undefined index: message
+#0 /home/bcoinbdtask/public_html/nishue_main/app/Libraries/Sms_lib.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/bcoinbdta...', 36, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Stripe/Controllers/Customer/Payment_callback.php(187): App\Libraries\Sms_lib->send(Array)
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Stripe/Controllers/Customer/Payment_callback.php(55): App\Modules\Stripe\Controllers\Customer\Payment_callback->deposit_confirm('cs_test_a1qYK3i...')
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Stripe\Controllers\Customer\Payment_callback->stripe_confirm('cs_test_a1qYK3i...')
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stripe\Controllers\Customer\Payment_callback))
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-17 07:04:32 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:04:33 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:04:33 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:04:33 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:11:18 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:11:20 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:11:20 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:11:20 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:12:40 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:12:41 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:12:41 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:12:41 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:12:47 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:12:49 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:12:49 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:12:49 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:12:49 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:13:00 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:13:02 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:13:03 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:13:03 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:13:03 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:22:55 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:23:05 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:23:22 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:23:51 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:23:53 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:23:53 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:23:53 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:23:53 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 07:23:57 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 08:11:19 --> mysqli::query(): Empty query
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::query()...', '/home/bcoinbdta...', 331, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/system/Database/MySQLi/Connection.php(331): mysqli->query('')
+#2 /home/bcoinbdtask/public_html/nishue_main/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('')
+#3 /home/bcoinbdtask/public_html/nishue_main/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('')
+#4 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Common/Controllers/Admin/Autoupdate.php(288): CodeIgniter\Database\BaseConnection->query('')
+#5 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Common/Controllers/Admin/Autoupdate.php(244): App\Modules\Common\Controllers\Admin\Autoupdate->database('/home/bcoinbdta...')
+#6 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Common\Controllers\Admin\Autoupdate->updatenow()
+#7 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Common\Controllers\Admin\Autoupdate))
+#8 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#10 {main}

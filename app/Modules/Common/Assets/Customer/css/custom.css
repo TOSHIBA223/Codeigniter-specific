@@ -1,0 +1,211 @@
+/*** Mailbox page***/
+
+.mailbox {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 30px 0 20px;
+    overflow: hidden;
+    border: 1px solid #e1e6ef;
+}
+
+.mailbox-header {
+    padding: 15px 25px;
+    border-bottom: 1px solid #e1e6ef;
+}
+
+.inbox-toolbar {
+    padding-top: 16.5px;
+    float: right;
+}
+
+.mailbox .btn {
+    border-radius: 25px;
+    border-width: 2px;
+    padding: 4px 15px;
+}
+
+.mailbox .btn:hover {
+    border-width: 2px;
+}
+
+.mailbox .btn-default {
+    color: #89949B;
+    border-color: #efefef;
+    background-color: #fff;
+}
+
+.mailbox .btn-default:hover {
+    color: #fff;
+    border-color: #62d0f1;
+    background-color: #62d0f1;
+}
+
+
+
+.mailbox-body .inbox-nav,
+.mailbox-body .inbox-mail {
+    display: table-cell;
+    vertical-align: top;
+    float: none;
+}
+
+.inbox-nav {
+    border-right: 1px solid #e4e5e7
+}
+
+.mailbox-sideber {
+    margin-top: 20px;
+}
+
+.profile-usermenu ul {
+    margin-bottom: 20px;
+}
+
+.profile-usermenu ul li a {
+    color: #93a3b5;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+    background-color: rgba(55, 160, 0, 0.1);
+    color: #37a000;
+}
+
+.profile-usermenu ul li.active {
+    border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+    color: #37a000;
+    background-color: rgba(55, 160, 0, 0.1);
+    border-left: 2px solid #37a000;
+    margin-left: -2px;
+}
+
+.profile-usermenu h6 {
+    margin: 0 15px 10px;
+    border-bottom: 1px solid #e4e5e7;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.inbox_item {
+    color: inherit;
+    display: block;
+    padding-bottom: 0 !important;
+    border-bottom: 1px solid #e4e5e7;
+    background: #f9f9f9;
+}
+
+.unread {
+    background: white;
+}
+
+.inbox_item:hover,
+.inbox_item:focus {
+    color: inherit;
+    background: rgba(255, 255, 102, 0.2);
+}
+
+.inbox_item:last-child {
+    border-bottom: none !important;
+}
+
+.inbox-avatar {
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+}
+
+.inbox-avatar img {
+    padding: 2px;
+    border-radius: 100px;
+    border: 2px solid #eee;
+    height: 40px;
+    width: 40px;
+}
+
+.inbox-avatar-text {
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    color: #93a3b5;
+}
+
+.avatar-name {
+    color: #43525A;
+    font-weight: 600;
+}
+
+.badge.avatar-text {
+    margin-right: 5px;
+    display: inline;
+    color: #fff;
+    font-size: 72%;
+    padding: 3px 10px;
+    border-radius: 10px;
+}
+
+.inbox-date {
+    float: right;
+    color: #CDCCC8;
+    text-align: right;
+}
+
+.inbox-date .date {
+    position: relative;
+    top: 5px;
+}
+
+@media(max-width:767px) {
+    .mailbox .btn {
+        margin-bottom: 10px;
+    }
+}
+
+@media(min-width:1200px) {
+    .inbox-avatar-text {
+        padding-left: 12.5px;
+    }
+}
+
+
+/*-- Mailbox details ---*/
+
+.inbox-mail-details {
+    line-height: 1.78571;
+}
+/*-- Badge ---*/
+.badge-inner {
+    margin-bottom: 15px;
+}
+
+.badge-inner a {
+    color: #3a95e4;
+    font-weight: 600;
+}
+
+.badge {
+    color: white;
+    background-color: #3a95e4;
+    font-size: 10px;
+    border-radius: 5px;
+    padding: 6px 7px;
+}
+
+.active .badge {
+    color: #9875ab !important;
+}
+
+.border-top{
+    border-top: 1px solid #e4e5e7;  
+}
+
+

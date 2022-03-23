@@ -1,0 +1,27 @@
+CRITICAL - 2021-06-23 03:48:03 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\nishue_main\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nishue_main\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nishue_main\app\Modules\Website\Controllers\Installer.php(35): redirect('http://localhos...')
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Website\Controllers\Installer->remove_installer()
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Installer))
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-23 03:48:08 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\nishue_main\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nishue_main\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nishue_main\app\Modules\Website\Controllers\Installer.php(14): redirect('http://localhos...')
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Website\Controllers\Installer->index()
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Installer))
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-23 03:48:10 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\nishue_main\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nishue_main\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nishue_main\app\Modules\Website\Controllers\Installer.php(14): redirect('http://localhos...')
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Website\Controllers\Installer->index()
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Installer))
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}

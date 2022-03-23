@@ -1,0 +1,371 @@
+CRITICAL - 2021-06-10 01:52:43 --> Class 'App\Modules\Common\Models\Website\Web_model' not found
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Website\Controllers\BaseController.php(64): App\Libraries\Template->__construct()
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 01:58:23 --> Class 'App\Modules\Customer\Models\Buy_model' not found
+#0 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 02:39:57 --> Class 'App\Modules\Customer\Models\Buy_model' not found
+#0 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 02:41:30 --> Class 'App\Modules\Website\Models\Buy_model' not found
+#0 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 02:46:35 --> Call to undefined function lan()
+#0 C:\xampp\htdocs\nishue_main\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('App\\Modules\\Web...', Array, true)
+#2 C:\xampp\htdocs\nishue_main\app\Modules\Website\Controllers\Home.php(30): view('App\\Modules\\Web...', Array)
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Website\Controllers\Home->index()
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-10 02:49:08 --> Invalid file: index.php
+#0 C:\xampp\htdocs\nishue_main\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\nishue_main\app\Modules\Website\Controllers\Home.php(30): view('index', Array)
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Website\Controllers\Home->index()
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-10 02:54:13 --> Undefined property: App\Modules\Website\Controllers\Home::$db
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Website\Controllers\Home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(898): App\Modules\Website\Controllers\Home->__construct()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 02:54:46 --> Undefined variable: template
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Website\Controllers\Home.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Website\Controllers\Home->index()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 02:55:48 --> Undefined variable: template
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Website\Controllers\Home.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Website\Controllers\Home->index()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 02:57:25 --> Undefined variable: template
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Website\Controllers\Home.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Website\Controllers\Home->index()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 02:57:40 --> Undefined variable: template
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Website\Controllers\Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Website\Controllers\Home->index()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 02:58:59 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Website\Controllers\Home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Website\Controllers\Home->index()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 02:59:12 --> Call to undefined function lan()
+#0 C:\xampp\htdocs\nishue_main\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('themes/website_...', Array, true)
+#2 C:\xampp\htdocs\nishue_main\app\Modules\Website\Controllers\Home.php(31): view('themes/website_...', Array)
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Website\Controllers\Home->index()
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-10 03:01:05 --> Call to undefined function lan()
+#0 C:\xampp\htdocs\nishue_main\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('themes/website_...', Array, true)
+#2 C:\xampp\htdocs\nishue_main\app\Libraries\Template.php(76): view('themes/website_...', Array)
+#3 C:\xampp\htdocs\nishue_main\app\Modules\Website\Controllers\Home.php(32): App\Libraries\Template->website_layout(Array)
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Website\Controllers\Home->index()
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-10 03:02:54 --> Undefined property: CodeIgniter\View\View::$uri
+#0 C:\xampp\htdocs\nishue_main\app\Views\themes\website_template\header.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\nishue_main\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('themes/website_...', Array, true)
+#3 C:\xampp\htdocs\nishue_main\app\Libraries\Template.php(76): view('themes/website_...', Array)
+#4 C:\xampp\htdocs\nishue_main\app\Modules\Website\Controllers\Home.php(32): App\Libraries\Template->website_layout(Array)
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Website\Controllers\Home->index()
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 03:05:02 --> Undefined property: CodeIgniter\View\View::$uri
+#0 C:\xampp\htdocs\nishue_main\app\Views\themes\website_template\header.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\nishue_main\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('themes/website_...', Array, true)
+#3 C:\xampp\htdocs\nishue_main\app\Libraries\Template.php(76): view('themes/website_...', Array)
+#4 C:\xampp\htdocs\nishue_main\app\Modules\Website\Controllers\Home.php(32): App\Libraries\Template->website_layout(Array)
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Website\Controllers\Home->index()
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 03:05:56 --> Undefined variable: uri
+#0 C:\xampp\htdocs\nishue_main\app\Views\themes\website_template\header.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\nishue_main\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('themes/website_...', Array, true)
+#3 C:\xampp\htdocs\nishue_main\app\Libraries\Template.php(76): view('themes/website_...', Array)
+#4 C:\xampp\htdocs\nishue_main\app\Modules\Website\Controllers\Home.php(32): App\Libraries\Template->website_layout(Array)
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Website\Controllers\Home->index()
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 03:06:38 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\nishue_main\app\Views\themes\website_template\header.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\nishue_main\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('themes/website_...', Array, true)
+#3 C:\xampp\htdocs\nishue_main\app\Libraries\Template.php(77): view('themes/website_...', Array)
+#4 C:\xampp\htdocs\nishue_main\app\Modules\Website\Controllers\Home.php(32): App\Libraries\Template->website_layout(Array)
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Website\Controllers\Home->index()
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 03:06:56 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\nishue_main\app\Views\themes\website_template\header.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\nishue_main\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('themes/website_...', Array, true)
+#3 C:\xampp\htdocs\nishue_main\app\Libraries\Template.php(79): view('themes/website_...', Array)
+#4 C:\xampp\htdocs\nishue_main\app\Modules\Website\Controllers\Home.php(32): App\Libraries\Template->website_layout(Array)
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Website\Controllers\Home->index()
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 03:06:58 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\nishue_main\app\Views\themes\website_template\header.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\nishue_main\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('themes/website_...', Array, true)
+#3 C:\xampp\htdocs\nishue_main\app\Libraries\Template.php(79): view('themes/website_...', Array)
+#4 C:\xampp\htdocs\nishue_main\app\Modules\Website\Controllers\Home.php(32): App\Libraries\Template->website_layout(Array)
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Website\Controllers\Home->index()
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 03:17:47 --> Call to undefined function App\Modules\Website\Controllers\lan()
+#0 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Website\Controllers\Home->buy()
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 03:23:51 --> Undefined property: CodeIgniter\View\View::$db
+#0 C:\xampp\htdocs\nishue_main\app\Views\themes\website_template\header.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\nishue_main\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('themes/website_...', Array, true)
+#3 C:\xampp\htdocs\nishue_main\app\Libraries\Template.php(79): view('themes/website_...', Array)
+#4 C:\xampp\htdocs\nishue_main\app\Modules\Website\Controllers\Home.php(79): App\Libraries\Template->website_layout(Array)
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Website\Controllers\Home->coinmarket()
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 03:27:02 --> Undefined variable: cat_value
+#0 C:\xampp\htdocs\nishue_main\app\Libraries\Template.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\nishue_main\app\Modules\Website\Controllers\Home.php(79): App\Libraries\Template->website_layout(Array)
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Website\Controllers\Home->coinmarket()
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-10 03:50:15 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\nishue_main\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\nishue_main\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\nishue_main\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(390): CodeIgniter\Filters\Filters->run('assets/js/langu...', 'before')
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-10 03:50:36 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\nishue_main\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\nishue_main\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\nishue_main\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(390): CodeIgniter\Filters\Filters->run('assets/js/langu...', 'before')
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-10 03:54:43 --> Call to undefined function App\Modules\Website\Controllers\lan()
+#0 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Website\Controllers\Home->buy()
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 03:58:30 --> Invalid file: themes/website_templateajaxbuy.php
+#0 C:\xampp\htdocs\nishue_main\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/website_...')
+#1 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('themes/website_...', Array, true)
+#2 C:\xampp\htdocs\nishue_main\app\Modules\Website\Controllers\Home.php(901): view('themes/website_...', Array)
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Website\Controllers\Home->buyPayable()
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-10 03:58:58 --> Invalid file: themes/website_templateajaxbuy.php
+#0 C:\xampp\htdocs\nishue_main\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/website_...')
+#1 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('themes/website_...', Array, true)
+#2 C:\xampp\htdocs\nishue_main\app\Modules\Website\Controllers\Home.php(901): view('themes/website_...', Array)
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Website\Controllers\Home->buyPayable()
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-10 05:13:20 --> Call to undefined function lan()
+#0 C:\xampp\htdocs\nishue_main\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('App\\Modules\\Use...', Array, true)
+#2 C:\xampp\htdocs\nishue_main\app\Libraries\Template.php(33): view('App\\Modules\\Use...', Array)
+#3 C:\xampp\htdocs\nishue_main\app\Modules\User\Controllers\Admin\User.php(26): App\Libraries\Template->admin_layout(Array)
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\User\Controllers\Admin\User->index()
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\User\Controllers\Admin\User))
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-10 05:25:59 --> Invalid file: App\Modules\Admin\Views\user\list.php
+#0 C:\xampp\htdocs\nishue_main\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Modules\\Adm...')
+#1 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('App\\Modules\\Adm...', Array, true)
+#2 C:\xampp\htdocs\nishue_main\app\Modules\User\Controllers\Admin\User.php(25): view('App\\Modules\\Adm...', Array)
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\User\Controllers\Admin\User->index()
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\User\Controllers\Admin\User))
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-10 05:31:55 --> Undefined property: App\Modules\User\Controllers\Admin\User::$user_model
+#0 C:\xampp\htdocs\nishue_main\app\Modules\User\Controllers\Admin\User.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\User\Controllers\Admin\User->ajax_list()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\User\Controllers\Admin\User))
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 05:32:05 --> Undefined property: App\Modules\User\Controllers\Admin\User::$user_model
+#0 C:\xampp\htdocs\nishue_main\app\Modules\User\Controllers\Admin\User.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\User\Controllers\Admin\User->ajax_list()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\User\Controllers\Admin\User))
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 05:32:51 --> Undefined index: search
+#0 C:\xampp\htdocs\nishue_main\app\Modules\User\Models\Admin\User_model.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\nishue_main\app\Modules\User\Controllers\Admin\User.php(42): App\Modules\User\Models\Admin\User_model->get_datatables('user_registrati...', Array, Array, Array)
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\User\Controllers\Admin\User->ajax_list()
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\User\Controllers\Admin\User))
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-10 05:33:28 --> syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)
+#0 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('App\\Modules\\Use...', Array, true)
+#1 C:\xampp\htdocs\nishue_main\app\Libraries\Template.php(33): view('App\\Modules\\Use...', Array)
+#2 C:\xampp\htdocs\nishue_main\app\Modules\User\Controllers\Admin\User.php(183): App\Libraries\Template->admin_layout(Array)
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\User\Controllers\Admin\User->user_details('1')
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\User\Controllers\Admin\User))
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-10 06:09:58 --> Call to undefined function lan()
+#0 C:\xampp\htdocs\nishue_main\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('App\\Modules\\Sys...', Array, true)
+#2 C:\xampp\htdocs\nishue_main\app\Libraries\Template.php(33): view('App\\Modules\\Sys...', Array)
+#3 C:\xampp\htdocs\nishue_main\app\Modules\System_user\Controllers\Admin\Admin.php(108): App\Libraries\Template->admin_layout(Array)
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\System_user\Controllers\Admin\Admin->form()
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\System_user\Controllers\Admin\Admin))
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-10 06:10:33 --> Undefined property: App\Modules\System_user\Controllers\Admin\Admin::$admin_model
+#0 C:\xampp\htdocs\nishue_main\app\Modules\System_user\Controllers\Admin\Admin.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\System_user\Controllers\Admin\Admin->index()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\System_user\Controllers\Admin\Admin))
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 06:12:22 --> Class 'App\Modules\System_user\Models\Admin\Admin_model' not found
+#0 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(899): App\Modules\System_user\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 06:54:01 --> Invalid file: template/messages.php
+#0 C:\xampp\htdocs\nishue_main\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/messag...')
+#1 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('template/messag...', Array, true)
+#2 C:\xampp\htdocs\nishue_main\app\Modules\Addon\Views\theme\list.php(23): view('template/messag...')
+#3 C:\xampp\htdocs\nishue_main\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('App\\Modules\\Add...', Array, true)
+#5 C:\xampp\htdocs\nishue_main\app\Libraries\Template.php(33): view('App\\Modules\\Add...', Array)
+#6 C:\xampp\htdocs\nishue_main\app\Modules\Addon\Controllers\Theme.php(35): App\Libraries\Template->admin_layout(Array)
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Addon\Controllers\Theme->index()
+#8 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Addon\Controllers\Theme))
+#9 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-10 06:56:40 --> Invalid file: template/messages.php
+#0 C:\xampp\htdocs\nishue_main\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/messag...')
+#1 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('template/messag...', Array, true)
+#2 C:\xampp\htdocs\nishue_main\app\Modules\Addon\Views\theme\download.php(9): view('template/messag...')
+#3 C:\xampp\htdocs\nishue_main\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('App\\Modules\\Add...', Array, true)
+#5 C:\xampp\htdocs\nishue_main\app\Libraries\Template.php(33): view('App\\Modules\\Add...', Array)
+#6 C:\xampp\htdocs\nishue_main\app\Modules\Addon\Controllers\Theme.php(154): App\Libraries\Template->admin_layout(Array)
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Addon\Controllers\Theme->download_theme()
+#8 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Addon\Controllers\Theme))
+#9 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-10 06:57:17 --> Invalid file: template/messages.php
+#0 C:\xampp\htdocs\nishue_main\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/messag...')
+#1 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('template/messag...', Array, true)
+#2 C:\xampp\htdocs\nishue_main\app\Modules\Addon\Views\module\list.php(7): view('template/messag...')
+#3 C:\xampp\htdocs\nishue_main\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('App\\Modules\\Add...', Array, true)
+#5 C:\xampp\htdocs\nishue_main\app\Libraries\Template.php(33): view('App\\Modules\\Add...', Array)
+#6 C:\xampp\htdocs\nishue_main\app\Modules\Addon\Controllers\Module.php(28): App\Libraries\Template->admin_layout(Array)
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Addon\Controllers\Module->index()
+#8 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Addon\Controllers\Module))
+#9 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-10 07:27:21 --> Class 'App\Modules\Account\Controllers\Customer\Payment' not found
+#0 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(899): App\Modules\Account\Controllers\Customer\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-10 07:34:17 --> Undefined property: App\Modules\Account\Controllers\Customer\Team::$team_model
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Account\Controllers\Customer\Team.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Account\Controllers\Customer\Team->index()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Account\Controllers\Customer\Team))
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 08:05:17 --> Class 'App\Modules\Customer\Controllers\BaseController' not found
+#0 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Fin...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Fin...')
+#4 [internal function]: spl_autoload_call('App\\Modules\\Fin...')
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(877): class_exists('\\App\\Modules\\Fi...', true)
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(402): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}

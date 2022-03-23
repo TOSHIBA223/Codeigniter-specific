@@ -1,0 +1,151 @@
+CRITICAL - 2021-06-14 01:09:35 --> Class 'App\Libraries\sms_lib' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Common\Controllers\Customer\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-14 01:16:27 --> Class 'App\Libraries\sms_lib' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Exchange\Controllers\Customer\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-14 01:23:25 --> Class 'App\Modules\Exchange\Controllers\Customer\Sms_lib' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Exchange\Controllers\Customer\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-14 02:14:24 --> Invalid file: App\Modules\CMS\Views\Admin\category\client.php
+#0 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Modules\\CMS...')
+#1 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('App\\Modules\\CMS...', Array, true)
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Libraries/Template.php(33): view('App\\Modules\\CMS...', Array)
+#3 /home/bcoinbdtask/public_html/nishue_main/app/Modules/CMS/Controllers/Admin/Client.php(99): App\Libraries\Template->admin_layout(Array)
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\CMS\Controllers\Admin\Client->form('30')
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\CMS\Controllers\Admin\Client))
+#6 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 02:28:58 --> copy(/home/bcoinbdtask/public_html/nishue_main/app/modules/New_module_1623655737.zip): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'copy(/home/bcoi...', '/home/bcoinbdta...', 379, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Addon/Controllers/Module.php(379): copy('https://store.b...', '/home/bcoinbdta...')
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Addon\Controllers\Module->verify_download_request()
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Addon\Controllers\Module))
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-14 02:29:53 --> copy(/home/bcoinbdtask/public_html/nishue_main/app/modules/New_module_1623655792.zip): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'copy(/home/bcoi...', '/home/bcoinbdta...', 379, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Addon/Controllers/Module.php(379): copy('https://store.b...', '/home/bcoinbdta...')
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Addon\Controllers\Module->verify_download_request()
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Addon\Controllers\Module))
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-14 02:41:51 --> copy(/home/bcoinbdtask/public_html/nishue_main/app/modules/New_module_1623656511.zip): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'copy(/home/bcoi...', '/home/bcoinbdta...', 379, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Addon/Controllers/Module.php(379): copy('https://store.b...', '/home/bcoinbdta...')
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Addon\Controllers\Module->verify_download_request()
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Addon\Controllers\Module))
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-14 02:50:05 --> copy(/home/bcoinbdtask/public_html/nishue_main/app/modules/New_module_1623657005.zip): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'copy(/home/bcoi...', '/home/bcoinbdta...', 379, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Addon/Controllers/Module.php(379): copy('https://store.b...', '/home/bcoinbdta...')
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Addon\Controllers\Module->verify_download_request()
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Addon\Controllers\Module))
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-14 02:58:20 --> copy(/home/bcoinbdtask/public_html/nishue_main/app/modules/New_module_1623657499.zip): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'copy(/home/bcoi...', '/home/bcoinbdta...', 379, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Addon/Controllers/Module.php(379): copy('https://store.b...', '/home/bcoinbdta...')
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Addon\Controllers\Module->verify_download_request()
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Addon\Controllers\Module))
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-14 03:00:16 --> copy(/home/bcoinbdtask/public_html/nishue_main/app/modules/New_module_1623657616.zip): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'copy(/home/bcoi...', '/home/bcoinbdta...', 379, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Addon/Controllers/Module.php(379): copy('https://store.b...', '/home/bcoinbdta...')
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Addon\Controllers\Module->verify_download_request()
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Addon\Controllers\Module))
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-14 03:02:30 --> Use of undefined constant ok - assumed 'ok' (this will throw an Error in a future version of PHP)
+#0 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Addon/Controllers/Module.php(364): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/bcoinbdta...', 364, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Addon\Controllers\Module->verify_download_request()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Addon\Controllers\Module))
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 03:07:13 --> copy(/home/bcoinbdtask/public_html/nishue_main/app/modules/New_module_1623658032.zip): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'copy(/home/bcoi...', '/home/bcoinbdta...', 379, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Addon/Controllers/Module.php(379): copy('https://store.b...', '/home/bcoinbdta...')
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Addon\Controllers\Module->verify_download_request()
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Addon\Controllers\Module))
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-14 03:08:30 --> copy(/home/bcoinbdtask/public_html/nishue_main/app/modules/New_module_1623658110.zip): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'copy(/home/bcoi...', '/home/bcoinbdta...', 379, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Addon/Controllers/Module.php(379): copy('https://store.b...', '/home/bcoinbdta...')
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Addon\Controllers\Module->verify_download_request()
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Addon\Controllers\Module))
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-14 06:06:14 --> App\Modules\Paytm\Controllers\Customer\Paytm::index(): Failed opening required '/home/bcoinbdtask/public_html/nishue_main/app/Modules/Paytm/libraries/config_paytm.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-14 23:13:03 --> Class 'App\Modules\Account\Models\customer\Team_model' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Account\Controllers\Customer\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-14 23:13:16 --> Class 'App\Modules\Account\Models\customer\Team_model' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Account\Controllers\Customer\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-14 23:13:36 --> Class 'App\Modules\Account\Models\customer\Team_model' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Account\Controllers\Customer\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-14 23:21:25 --> Class 'App\Modules\Account\Models\customer\Team_model' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Account\Controllers\Customer\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-14 23:27:10 --> A non well formed numeric value encountered
+#0 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Website/Controllers/Home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', '/home/bcoinbdta...', 72, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Website\Controllers\Home->coinmarket()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 23:32:32 --> Class 'App\Modules\Account\Models\customer\Team_model' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Account\Controllers\Customer\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-14 23:34:28 --> Class 'App\Modules\Account\Models\customer\Team_model' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Account\Controllers\Customer\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-14 23:58:37 --> Class 'App\Modules\Account\Models\customer\Team_model' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Account\Controllers\Customer\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}

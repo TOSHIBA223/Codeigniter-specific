@@ -1,0 +1,48 @@
+CRITICAL - 2021-06-19 00:49:39 --> Call to undefined function lan()
+#0 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(246): include()
+#1 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('themes/website_...', Array, true)
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Website/Controllers/Home.php(705): view('themes/website_...', Array)
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Website\Controllers\Home->register()
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-19 00:50:10 --> Call to undefined function lan()
+#0 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(246): include()
+#1 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('themes/website_...', Array, true)
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Website/Controllers/Home.php(705): view('themes/website_...', Array)
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Website\Controllers\Home->register()
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-19 00:53:00 --> Call to undefined function lan()
+#0 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(246): include()
+#1 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('themes/website_...', Array, true)
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Website/Controllers/Home.php(705): view('themes/website_...', Array)
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Website\Controllers\Home->register()
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-19 06:08:49 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Finance\Controllers\Customer\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-19 06:08:59 --> Class 'App\Libraries\Payment' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Finance\Controllers\Customer\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-19 08:06:03 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\nishue_main\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\nishue_main\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `name`\nF...', Array, false)
+#2 C:\xampp\htdocs\nishue_main\app\Modules\Website\Controllers\BaseController.php(60): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}

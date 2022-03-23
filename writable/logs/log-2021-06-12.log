@@ -1,0 +1,875 @@
+CRITICAL - 2021-06-12 00:13:11 --> Undefined property: App\Modules\Finance\Controllers\Customer\Transfer::$transfer_model
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Finance\Controllers\Customer\Transfer.php(427): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 427, Array)
+#1 C:\xampp\htdocs\nishue_main\app\Modules\Finance\Controllers\Customer\Transfer.php(112): App\Modules\Finance\Controllers\Customer\Transfer->check_balance('1')
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Finance\Controllers\Customer\Transfer->store()
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Finance\Controllers\Customer\Transfer))
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-12 00:43:12 --> array_multisort(): Array sizes are inconsistent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\nishue_main\app\Views\customer\sidebar.php(47): array_multisort(Array, 4, Array)
+#2 C:\xampp\htdocs\nishue_main\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('customer/sideba...', Array, true)
+#4 C:\xampp\htdocs\nishue_main\app\Libraries\Template.php(52): view('customer/sideba...', Array)
+#5 C:\xampp\htdocs\nishue_main\app\Modules\Finance\Controllers\Customer\Transfer.php(417): App\Libraries\Template->customer_layout(Array)
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Finance\Controllers\Customer\Transfer->transfer_recite('3')
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Finance\Controllers\Customer\Transfer))
+#8 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-12 00:44:08 --> array_multisort(): Array sizes are inconsistent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\nishue_main\app\Views\customer\sidebar.php(47): array_multisort(Array, 4, Array)
+#2 C:\xampp\htdocs\nishue_main\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('customer/sideba...', Array, true)
+#4 C:\xampp\htdocs\nishue_main\app\Libraries\Template.php(52): view('customer/sideba...', Array)
+#5 C:\xampp\htdocs\nishue_main\app\Modules\Finance\Controllers\Customer\Transfer.php(417): App\Libraries\Template->customer_layout(Array)
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Finance\Controllers\Customer\Transfer->transfer_recite('3')
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Finance\Controllers\Customer\Transfer))
+#8 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-12 00:45:17 --> Undefined index: submenu
+#0 C:\xampp\htdocs\nishue_main\app\Views\customer\sidebar.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\nishue_main\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('customer/sideba...', Array, true)
+#3 C:\xampp\htdocs\nishue_main\app\Libraries\Template.php(52): view('customer/sideba...', Array)
+#4 C:\xampp\htdocs\nishue_main\app\Modules\Finance\Controllers\Customer\Transfer.php(417): App\Libraries\Template->customer_layout(Array)
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Finance\Controllers\Customer\Transfer->transfer_recite('3')
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Finance\Controllers\Customer\Transfer))
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-12 00:45:57 --> Undefined index: link
+#0 C:\xampp\htdocs\nishue_main\app\Views\customer\sidebar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\nishue_main\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('customer/sideba...', Array, true)
+#3 C:\xampp\htdocs\nishue_main\app\Libraries\Template.php(52): view('customer/sideba...', Array)
+#4 C:\xampp\htdocs\nishue_main\app\Modules\Finance\Controllers\Customer\Transfer.php(417): App\Libraries\Template->customer_layout(Array)
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Finance\Controllers\Customer\Transfer->transfer_recite('3')
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Finance\Controllers\Customer\Transfer))
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-12 00:46:27 --> syntax error, unexpected ''icon'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\nishue_main\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('customer/sideba...', Array, true)
+#2 C:\xampp\htdocs\nishue_main\app\Libraries\Template.php(52): view('customer/sideba...', Array)
+#3 C:\xampp\htdocs\nishue_main\app\Modules\Finance\Controllers\Customer\Transfer.php(417): App\Libraries\Template->customer_layout(Array)
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Finance\Controllers\Customer\Transfer->transfer_recite('3')
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Finance\Controllers\Customer\Transfer))
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-12 01:21:58 --> Undefined property: App\Modules\Exchange\Controllers\Customer\Currency::$currency_model
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Exchange\Controllers\Customer\Currency.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Exchange\Controllers\Customer\Currency->index()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Exchange\Controllers\Customer\Currency))
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-12 01:31:48 --> Undefined property: App\Modules\Exchange\Controllers\Customer\Buy::$payment
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Exchange\Controllers\Customer\Buy.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 130, Array)
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Exchange\Controllers\Customer\Buy->paymentform()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Exchange\Controllers\Customer\Buy))
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-12 02:00:57 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Exchange\Controllers\Customer\Buy.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Exchange\Controllers\Customer\Buy->buyPayable()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Exchange\Controllers\Customer\Buy))
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-12 02:13:29 --> Undefined property: stdClass::$payment_method
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Exchange\Controllers\Customer\Buy.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 117, Array)
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Exchange\Controllers\Customer\Buy->paymentform()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Exchange\Controllers\Customer\Buy))
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-12 02:20:23 --> Trying to get property 'deposit_method' of non-object
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Payeer\Controllers\Customer\Payment_process.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Payeer\Controllers\Customer\payment_process->payeer()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Payeer\Controllers\Customer\payment_process))
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-12 02:27:36 --> Undefined property: App\Modules\Paypal\Controllers\Customer\Payment_callback::$buy_model
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Paypal\Controllers\Customer\Payment_callback.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Paypal\Controllers\Customer\Payment_callback->paypal_confirm()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Paypal\Controllers\Customer\Payment_callback))
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-12 02:30:28 --> Unknown column 'deposit_id' in 'field list'
+#0 C:\xampp\htdocs\nishue_main\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ex...')
+#1 C:\xampp\htdocs\nishue_main\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ex...')
+#2 C:\xampp\htdocs\nishue_main\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ex...')
+#3 C:\xampp\htdocs\nishue_main\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ex...', Array, false)
+#4 C:\xampp\htdocs\nishue_main\app\Modules\Paypal\Models\Customer\Payment_model.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\nishue_main\app\Modules\Paypal\Controllers\Customer\Payment_callback.php(82): App\Modules\Paypal\Models\Customer\Payment_model->create(Array)
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Paypal\Controllers\Customer\Payment_callback->paypal_confirm()
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Paypal\Controllers\Customer\Payment_callback))
+#8 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-12 02:40:59 --> syntax error, unexpected 'die' (T_EXIT)
+#0 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Pay...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Pay...')
+#3 [internal function]: spl_autoload_call('App\\Modules\\Pay...')
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(877): class_exists('\\App\\Modules\\Pa...', true)
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(402): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-12 02:44:22 --> Call to undefined method CodeIgniter\Session\Session::set_flashdata()
+#0 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Paypal\Controllers\Customer\Payment_callback->paypal_cancel()
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Paypal\Controllers\Customer\Payment_callback))
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-12 03:15:56 --> Unknown column 'deposit_id' in 'field list'
+#0 C:\xampp\htdocs\nishue_main\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ex...')
+#1 C:\xampp\htdocs\nishue_main\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ex...')
+#2 C:\xampp\htdocs\nishue_main\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ex...')
+#3 C:\xampp\htdocs\nishue_main\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ex...', Array, false)
+#4 C:\xampp\htdocs\nishue_main\app\Modules\Stripe\Models\Customer\Payment_model.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\nishue_main\app\Modules\Stripe\Controllers\Customer\Payment_callback.php(60): App\Modules\Stripe\Models\Customer\Payment_model->create(Array)
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Stripe\Controllers\Customer\Payment_callback->stripe_confirm('cs_test_a1B5Ew2...')
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stripe\Controllers\Customer\Payment_callback))
+#8 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-12 03:22:07 --> Undefined property: App\Modules\Exchange\Controllers\Customer\Sell::$imagelibrary
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Exchange\Controllers\Customer\Sell.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Exchange\Controllers\Customer\Sell->form()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Exchange\Controllers\Customer\Sell))
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-12 03:23:33 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Exchange\Controllers\Customer\Sell.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 144, Array)
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Exchange\Controllers\Customer\Sell->sellPayable()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Exchange\Controllers\Customer\Sell))
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-12 03:23:33 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Exchange\Controllers\Customer\Sell.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 144, Array)
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Exchange\Controllers\Customer\Sell->sellPayable()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Exchange\Controllers\Customer\Sell))
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-12 03:23:33 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Exchange\Controllers\Customer\Sell.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 144, Array)
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Exchange\Controllers\Customer\Sell->sellPayable()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Exchange\Controllers\Customer\Sell))
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-12 03:23:34 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Exchange\Controllers\Customer\Sell.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 144, Array)
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Exchange\Controllers\Customer\Sell->sellPayable()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Exchange\Controllers\Customer\Sell))
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-12 04:29:06 --> Class 'App\Modules\Controllers\Customer\BaseController' not found
+#0 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Set...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Set...')
+#4 [internal function]: spl_autoload_call('App\\Modules\\Set...')
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(877): class_exists('\\App\\Modules\\Se...', true)
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(402): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-12 04:29:32 --> Call to undefined function lan()
+#0 C:\xampp\htdocs\nishue_main\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('App\\Modules\\Set...', Array, true)
+#2 C:\xampp\htdocs\nishue_main\app\Libraries\Template.php(56): view('App\\Modules\\Set...', Array)
+#3 C:\xampp\htdocs\nishue_main\app\Modules\Setting\Controllers\Customer\Settings.php(55): App\Libraries\Template->customer_layout(Array)
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Setting\Controllers\Customer\Settings->payment_method_setting()
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Setting\Controllers\Customer\Settings))
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-12 04:30:37 --> Call to undefined function lan()
+#0 C:\xampp\htdocs\nishue_main\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('App\\Modules\\Set...', Array, true)
+#2 C:\xampp\htdocs\nishue_main\app\Libraries\Template.php(56): view('App\\Modules\\Set...', Array)
+#3 C:\xampp\htdocs\nishue_main\app\Modules\Setting\Controllers\Customer\Settings.php(55): App\Libraries\Template->customer_layout(Array)
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Setting\Controllers\Customer\Settings->payment_method_setting()
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Setting\Controllers\Customer\Settings))
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-12 04:30:42 --> Call to undefined function lan()
+#0 C:\xampp\htdocs\nishue_main\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('App\\Modules\\Set...', Array, true)
+#2 C:\xampp\htdocs\nishue_main\app\Libraries\Template.php(56): view('App\\Modules\\Set...', Array)
+#3 C:\xampp\htdocs\nishue_main\app\Modules\Setting\Controllers\Customer\Settings.php(55): App\Libraries\Template->customer_layout(Array)
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Setting\Controllers\Customer\Settings->payment_method_setting()
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Setting\Controllers\Customer\Settings))
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-12 04:31:52 --> Call to undefined function lan()
+#0 C:\xampp\htdocs\nishue_main\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('App\\Modules\\Set...', Array, true)
+#2 C:\xampp\htdocs\nishue_main\app\Libraries\Template.php(56): view('App\\Modules\\Set...', Array)
+#3 C:\xampp\htdocs\nishue_main\app\Modules\Setting\Controllers\Customer\Settings.php(55): App\Libraries\Template->customer_layout(Array)
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Setting\Controllers\Customer\Settings->payment_method_setting()
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Setting\Controllers\Customer\Settings))
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-12 04:39:26 --> Undefined index: submenu
+#0 C:\xampp\htdocs\nishue_main\app\Views\customer\sidebar.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\nishue_main\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\Common.php(1119): CodeIgniter\View\View->render('customer/sideba...', Array, true)
+#3 C:\xampp\htdocs\nishue_main\app\Libraries\Template.php(52): view('customer/sideba...', Array)
+#4 C:\xampp\htdocs\nishue_main\app\Modules\Auth\Controllers\Customer\User_dashboard.php(24): App\Libraries\Template->customer_layout(Array)
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Auth\Controllers\Customer\User_dashboard->index()
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Auth\Controllers\Customer\User_dashboard))
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-12 04:59:04 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#4 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-12 04:59:35 --> syntax error, unexpected '$csrf_filter_array' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#4 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-12 04:59:50 --> syntax error, unexpected '$csrf_filter_array' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#4 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-12 05:01:06 --> syntax error, unexpected 'print_r' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#4 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-12 05:02:54 --> Undefined variable: csrf_filter_array
+#0 C:\xampp\htdocs\nishue_main\app\Filters\Customer_filter.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\nishue_main\system\Filters\Filters.php(173): App\Filters\Customer_filter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(390): CodeIgniter\Filters\Filters->run('customer/notifi...', 'before')
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-12 05:19:32 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(788): require()
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(372): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-12 05:21:33 --> Undefined index: STATUS
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Paytm\Controllers\Customer\Payment_callback.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Paytm\Controllers\Customer\Payment_callback->paytmsuccess()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Paytm\Controllers\Customer\Payment_callback))
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-12 05:36:53 --> Too few arguments to function CodeIgniter\Security\Security::CSRFVerify(), 0 passed in C:\xampp\htdocs\nishue_main\system\Filters\CSRF.php on line 87 and exactly 1 expected
+#0 C:\xampp\htdocs\nishue_main\system\Filters\CSRF.php(87): CodeIgniter\Security\Security->CSRFVerify()
+#1 C:\xampp\htdocs\nishue_main\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(390): CodeIgniter\Filters\Filters->run('/', 'before')
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-12 05:54:38 --> Undefined property: CodeIgniter\CodeIgniter::$CSRFTokenName
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Payeer\Config\Routes.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\nishue_main\app\Config\Routes.php(48): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(788): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(372): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-12 05:54:51 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-12 05:56:53 --> Cannot use object of type CodeIgniter\Security\Security as array
+#0 C:\xampp\htdocs\nishue_main\app\Config\Routes.php(48): require_once()
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(788): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(372): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-12 05:57:07 --> Cannot access protected property CodeIgniter\Security\Security::$CSRFTokenName
+#0 C:\xampp\htdocs\nishue_main\app\Config\Routes.php(48): require_once()
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(788): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(372): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-12 05:57:34 --> Cannot use object of type CodeIgniter\Security\Security as array
+#0 C:\xampp\htdocs\nishue_main\app\Config\Routes.php(48): require_once()
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(788): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(372): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-12 05:58:11 --> Cannot access protected property CodeIgniter\Security\Security::$CSRFTokenName
+#0 C:\xampp\htdocs\nishue_main\app\Config\Routes.php(48): require_once()
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(788): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(372): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-12 05:59:47 --> Undefined variable: config
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Payeer\Config\Routes.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\nishue_main\app\Config\Routes.php(48): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(788): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(372): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-12 06:00:04 --> Undefined variable: csrf_protection
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Payeer\Config\Routes.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\nishue_main\app\Config\Routes.php(48): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(788): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(372): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-12 06:00:26 --> Undefined variable: CSRFTokenName
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Payeer\Config\Routes.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\nishue_main\app\Config\Routes.php(48): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(788): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(372): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-12 06:01:05 --> Use of undefined constant CSRFTokenName - assumed 'CSRFTokenName' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Payeer\Config\Routes.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\nishue_main\app\Config\Routes.php(48): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(788): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(372): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-12 06:11:01 --> print_r() expects at least 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r() expec...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\nishue_main\app\Modules\Payeer\Config\Routes.php(9): print_r()
+#2 C:\xampp\htdocs\nishue_main\app\Config\Routes.php(48): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(788): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(372): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-12 06:12:04 --> Undefined index: STATUS
+#0 C:\xampp\htdocs\nishue_main\app\Modules\Paytm\Controllers\Customer\Payment_callback.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Paytm\Controllers\Customer\Payment_callback->paytmsuccess()
+#2 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Paytm\Controllers\Customer\Payment_callback))
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-12 06:13:37 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-12 06:31:17 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-12 06:31:39 --> Array to string conversion
+#0 C:\xampp\htdocs\nishue_main\app\Config\Filters.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): Config\Filters->__construct()
+#2 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#3 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-12 06:35:44 --> array_multisort(): Array sizes are inconsistent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\nishue_main\app\Config\Filters.php(42): array_multisort(Array, 4, Array)
+#2 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): Config\Filters->__construct()
+#3 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#4 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-12 06:39:21 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-12 06:42:21 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-12 06:43:47 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-12 06:45:55 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-12 06:46:45 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-12 06:48:01 --> syntax error, unexpected ']'
+#0 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#4 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-12 06:51:41 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-12 06:53:26 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-12 06:53:39 --> syntax error, unexpected '$crsrf_constant' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#4 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-12 06:54:10 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-12 06:54:27 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-12 06:55:23 --> syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#4 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-12 06:57:44 --> syntax error, unexpected '$test' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#4 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-12 06:57:59 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-12 06:58:41 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-12 06:58:42 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-12 06:58:42 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-12 06:58:43 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-12 06:58:43 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-12 07:00:03 --> syntax error, unexpected 'print_r' (T_STRING), expecting ',' or ';'
+#0 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#4 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-12 07:00:34 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-12 07:02:16 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-12 07:03:12 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-12 07:03:15 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-12 07:10:10 --> Use of undefined constant BASEPATH - assumed 'BASEPATH' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 322, Array)
+#1 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#2 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-12 07:10:32 --> Use of undefined constant BASEURL - assumed 'BASEURL' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 322, Array)
+#1 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#2 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-12 07:18:45 --> Use of undefined constant EXCEPTURL - assumed 'EXCEPTURL' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 322, Array)
+#1 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#2 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-12 07:19:04 --> syntax error, unexpected 'defined' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#4 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-12 07:20:25 --> Undefined variable: csrf_off
+#0 C:\xampp\htdocs\nishue_main\app\Config\Filters.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(365): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#6 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#7 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#8 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#9 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-12 07:21:41 --> syntax error, unexpected 'defined' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#4 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-12 07:25:01 --> array_push() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\nishue_main\app\Config\Filters.php(33): array_push(NULL, 'app/Modules/Pay...')
+#2 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): Config\Filters->__construct()
+#3 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#4 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-12 07:25:50 --> Undefined variable: csrf_off
+#0 C:\xampp\htdocs\nishue_main\app\Config\Filters.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): Config\Filters->__construct()
+#2 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#3 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-12 07:30:47 --> array_push() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\nishue_main\app\Config\Filters.php(39): array_push(NULL, Array)
+#2 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): Config\Filters->__construct()
+#3 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#4 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-12 07:32:03 --> Undefined variable: csrf_push
+#0 C:\xampp\htdocs\nishue_main\app\Config\Filters.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): Config\Filters->__construct()
+#2 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#3 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-12 07:33:34 --> Undefined variable: csrf_push
+#0 C:\xampp\htdocs\nishue_main\app\Config\Filters.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): Config\Filters->__construct()
+#2 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#3 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-12 07:57:01 --> Undefined variable: csrf_off
+#0 C:\xampp\htdocs\nishue_main\app\Config\Filters.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(365): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#6 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#7 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#8 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#9 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-12 08:07:59 --> trim() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'trim() expects ...', 'C:\\xampp\\htdocs...', 503, Array)
+#1 C:\xampp\htdocs\nishue_main\system\Filters\Filters.php(503): trim(Array, '/ ')
+#2 C:\xampp\htdocs\nishue_main\system\Filters\Filters.php(391): CodeIgniter\Filters\Filters->pathApplies('', Array)
+#3 C:\xampp\htdocs\nishue_main\system\Filters\Filters.php(239): CodeIgniter\Filters\Filters->processGlobals('')
+#4 C:\xampp\htdocs\nishue_main\system\Filters\Filters.php(139): CodeIgniter\Filters\Filters->initialize('/')
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(390): CodeIgniter\Filters\Filters->run('/', 'before')
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-12 08:11:09 --> Use of undefined constant fhgfhfghgf - assumed 'fhgfhfghgf' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 322, Array)
+#1 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#2 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#3 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-12 08:18:53 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\nishue_main\app\Config\Filters.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(365): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#6 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#7 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#8 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#9 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-12 08:19:28 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\nishue_main\app\Config\Filters.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(365): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#6 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#7 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#8 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#9 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-12 08:21:36 --> Cannot use [] for reading
+#0 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#4 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#5 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#6 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#8 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-12 08:31:22 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#4 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-12 08:36:46 --> syntax error, unexpected '","' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#4 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-12 08:36:54 --> Undefined variable: text
+#0 C:\xampp\htdocs\nishue_main\app\Config\Filters.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(365): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#6 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#7 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#8 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#9 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-12 08:37:56 --> Undefined variable: text
+#0 C:\xampp\htdocs\nishue_main\app\Config\Filters.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(365): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#6 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#7 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#8 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#9 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-12 08:38:22 --> Undefined variable: text
+#0 C:\xampp\htdocs\nishue_main\app\Config\Filters.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(365): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#6 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#7 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#8 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#9 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-12 08:39:39 --> Undefined variable: text
+#0 C:\xampp\htdocs\nishue_main\app\Config\Filters.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(365): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#6 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#7 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#8 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#9 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-12 08:39:59 --> Undefined variable: text
+#0 C:\xampp\htdocs\nishue_main\app\Config\Filters.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(365): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#6 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#7 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#8 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#9 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-12 08:41:15 --> Undefined variable: concat
+#0 C:\xampp\htdocs\nishue_main\app\Config\Filters.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(365): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#6 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#7 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#8 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#9 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-12 08:41:24 --> syntax error, unexpected '='
+#0 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#4 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-12 08:43:30 --> Undefined variable: concat
+#0 C:\xampp\htdocs\nishue_main\app\Config\Filters.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(365): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#6 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#7 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#8 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#9 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-12 08:44:38 --> Undefined variable: concat
+#0 C:\xampp\htdocs\nishue_main\app\Config\Filters.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(365): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#6 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#7 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#8 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#9 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-12 08:47:27 --> syntax error, unexpected 'print_r' (T_STRING)
+#0 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#4 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#5 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#7 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-12 23:53:43 --> array_multisort(): Array sizes are inconsistent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\nishue_main\app\Config\Filters.php(43): array_multisort(Array, 4, Array)
+#2 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(365): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\nishue_main\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#6 C:\xampp\htdocs\nishue_main\system\Config\Services.php(322): spl_autoload_call('Config\\Filters')
+#7 C:\xampp\htdocs\nishue_main\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(NULL, false)
+#8 C:\xampp\htdocs\nishue_main\system\Config\Services.php(317): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#9 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(375): CodeIgniter\Config\Services::filters()
+#10 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\nishue_main\index.php(64): CodeIgniter\CodeIgniter->run()
+#12 {main}

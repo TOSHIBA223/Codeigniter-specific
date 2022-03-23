@@ -1,0 +1,10 @@
+__ci_last_regenerate|i:1624426746;_ci_previous_url|s:93:"http://localhost/nishue_main/public/uploads/dashboard/new/1609072784_bafaefb632fe55203bc9.png";captcha|s:4:"rx3l";exception|s:287:"<!-- DEBUG-VIEW START 1 SYSTEMPATH//Validation/Views/list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>The Password field is required.</li>
+					<li>The Captcha field is required.</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH//Validation/Views/list.php -->
+";__ci_vars|a:1:{s:9:"exception";s:3:"old";}

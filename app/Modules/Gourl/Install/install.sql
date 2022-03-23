@@ -1,0 +1,2 @@
+INSERT INTO `payment_gateway` (`id`, `identity`, `agent`, `public_key`, `private_key`, `shop_id`, `secret_key`, `status`) VALUES (NULL, 'bitcoin', 'Bitcoin', '25654AAo79c3Bitcoin77BTCPUBqwIefT1j9fqqMwUtMI0huVL', '25654AAo79c3Bitcoin77BTCPRV0JG7w3jg0Tc5Pfi34U8o5JE', '', '', '1');
+INSERT INTO `language` (`id`, `phrase`, `english`, `french`) VALUES (NULL, 'payment_gateway', 'Payment Gateway', NULL);

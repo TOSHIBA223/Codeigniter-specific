@@ -1,0 +1,496 @@
+CRITICAL - 2021-06-15 00:09:32 --> Class 'App\Modules\Account\Models\customer\Team_model' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Account\Controllers\Customer\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-15 00:09:46 --> Class 'App\Modules\Account\Models\customer\Team_model' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Account\Controllers\Customer\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-15 00:11:34 --> Class 'App\Modules\Account\Models\customer\Team_model' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Account\Controllers\Customer\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-15 01:14:47 --> array_multisort(): Array sizes are inconsistent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort...', '/home/bcoinbdta...', 45, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Views/admin/sidebar.php(45): array_multisort(Array, 4, Array)
+#2 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(246): include('/home/bcoinbdta...')
+#3 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('admin/sidebar', Array, true)
+#4 /home/bcoinbdtask/public_html/nishue_main/app/Libraries/Template.php(30): view('admin/sidebar', Array)
+#5 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Paytm/Controllers/Admin/Payment_gateway.php(43): App\Libraries\Template->admin_layout(Array)
+#6 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Paytm\Controllers\Admin\Payment_gateway->form()
+#7 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Paytm\Controllers\Admin\Payment_gateway))
+#8 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-15 01:15:12 --> array_multisort(): Array sizes are inconsistent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort...', '/home/bcoinbdta...', 45, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Views/admin/sidebar.php(45): array_multisort(Array, 4, Array)
+#2 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(246): include('/home/bcoinbdta...')
+#3 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('admin/sidebar', Array, true)
+#4 /home/bcoinbdtask/public_html/nishue_main/app/Libraries/Template.php(30): view('admin/sidebar', Array)
+#5 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Paytm/Controllers/Admin/Payment_gateway.php(43): App\Libraries\Template->admin_layout(Array)
+#6 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Paytm\Controllers\Admin\Payment_gateway->form()
+#7 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Paytm\Controllers\Admin\Payment_gateway))
+#8 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-15 01:16:46 --> array_multisort(): Array sizes are inconsistent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort...', '/home/bcoinbdta...', 45, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Views/admin/sidebar.php(45): array_multisort(Array, 4, Array)
+#2 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(246): include('/home/bcoinbdta...')
+#3 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('admin/sidebar', Array, true)
+#4 /home/bcoinbdtask/public_html/nishue_main/app/Libraries/Template.php(30): view('admin/sidebar', Array)
+#5 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Paytm/Controllers/Admin/Payment_gateway.php(43): App\Libraries\Template->admin_layout(Array)
+#6 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Paytm\Controllers\Admin\Payment_gateway->form()
+#7 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Paytm\Controllers\Admin\Payment_gateway))
+#8 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-15 01:17:06 --> array_multisort(): Array sizes are inconsistent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort...', '/home/bcoinbdta...', 45, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Views/admin/sidebar.php(45): array_multisort(Array, 4, Array)
+#2 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(246): include('/home/bcoinbdta...')
+#3 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('admin/sidebar', Array, true)
+#4 /home/bcoinbdtask/public_html/nishue_main/app/Libraries/Template.php(30): view('admin/sidebar', Array)
+#5 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Paytm/Controllers/Admin/Payment_gateway.php(43): App\Libraries\Template->admin_layout(Array)
+#6 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Paytm\Controllers\Admin\Payment_gateway->form()
+#7 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Paytm\Controllers\Admin\Payment_gateway))
+#8 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-15 01:18:44 --> array_multisort(): Array sizes are inconsistent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort...', '/home/bcoinbdta...', 45, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Views/admin/sidebar.php(45): array_multisort(Array, 4, Array)
+#2 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(246): include('/home/bcoinbdta...')
+#3 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('admin/sidebar', Array, true)
+#4 /home/bcoinbdtask/public_html/nishue_main/app/Libraries/Template.php(30): view('admin/sidebar', Array)
+#5 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Paytm/Controllers/Admin/Payment_gateway.php(43): App\Libraries\Template->admin_layout(Array)
+#6 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Paytm\Controllers\Admin\Payment_gateway->form()
+#7 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Paytm\Controllers\Admin\Payment_gateway))
+#8 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-15 01:21:40 --> array_multisort(): Array sizes are inconsistent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort...', '/home/bcoinbdta...', 45, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Views/admin/sidebar.php(45): array_multisort(Array, 4, Array)
+#2 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(246): include('/home/bcoinbdta...')
+#3 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('admin/sidebar', Array, true)
+#4 /home/bcoinbdtask/public_html/nishue_main/app/Libraries/Template.php(30): view('admin/sidebar', Array)
+#5 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Paytm/Controllers/Admin/Payment_gateway.php(43): App\Libraries\Template->admin_layout(Array)
+#6 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Paytm\Controllers\Admin\Payment_gateway->form()
+#7 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Paytm\Controllers\Admin\Payment_gateway))
+#8 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-15 01:22:07 --> array_multisort(): Array sizes are inconsistent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort...', '/home/bcoinbdta...', 45, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Views/admin/sidebar.php(45): array_multisort(Array, 4, Array)
+#2 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(246): include('/home/bcoinbdta...')
+#3 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('admin/sidebar', Array, true)
+#4 /home/bcoinbdtask/public_html/nishue_main/app/Libraries/Template.php(30): view('admin/sidebar', Array)
+#5 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Paytm/Controllers/Admin/Payment_gateway.php(43): App\Libraries\Template->admin_layout(Array)
+#6 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Paytm\Controllers\Admin\Payment_gateway->form()
+#7 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Paytm\Controllers\Admin\Payment_gateway))
+#8 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-15 01:22:55 --> array_multisort(): Array sizes are inconsistent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort...', '/home/bcoinbdta...', 45, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Views/admin/sidebar.php(45): array_multisort(Array, 4, Array)
+#2 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(246): include('/home/bcoinbdta...')
+#3 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('admin/sidebar', Array, true)
+#4 /home/bcoinbdtask/public_html/nishue_main/app/Libraries/Template.php(30): view('admin/sidebar', Array)
+#5 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Paytm/Controllers/Admin/Payment_gateway.php(43): App\Libraries\Template->admin_layout(Array)
+#6 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Paytm\Controllers\Admin\Payment_gateway->form()
+#7 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Paytm\Controllers\Admin\Payment_gateway))
+#8 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-15 01:25:09 --> array_multisort(): Array sizes are inconsistent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort...', '/home/bcoinbdta...', 45, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Views/admin/sidebar.php(45): array_multisort(Array, 4, Array)
+#2 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(246): include('/home/bcoinbdta...')
+#3 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('admin/sidebar', Array, true)
+#4 /home/bcoinbdtask/public_html/nishue_main/app/Libraries/Template.php(30): view('admin/sidebar', Array)
+#5 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Paytm/Controllers/Admin/Payment_gateway.php(43): App\Libraries\Template->admin_layout(Array)
+#6 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Paytm\Controllers\Admin\Payment_gateway->form()
+#7 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Paytm\Controllers\Admin\Payment_gateway))
+#8 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-15 01:25:26 --> array_multisort(): Array sizes are inconsistent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort...', '/home/bcoinbdta...', 45, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Views/admin/sidebar.php(45): array_multisort(Array, 4, Array)
+#2 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(246): include('/home/bcoinbdta...')
+#3 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('admin/sidebar', Array, true)
+#4 /home/bcoinbdtask/public_html/nishue_main/app/Libraries/Template.php(30): view('admin/sidebar', Array)
+#5 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Paytm/Controllers/Admin/Payment_gateway.php(43): App\Libraries\Template->admin_layout(Array)
+#6 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Paytm\Controllers\Admin\Payment_gateway->form()
+#7 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Paytm\Controllers\Admin\Payment_gateway))
+#8 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-15 01:26:33 --> array_multisort(): Array sizes are inconsistent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort...', '/home/bcoinbdta...', 45, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Views/admin/sidebar.php(45): array_multisort(Array, 4, Array)
+#2 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(246): include('/home/bcoinbdta...')
+#3 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('admin/sidebar', Array, true)
+#4 /home/bcoinbdtask/public_html/nishue_main/app/Libraries/Template.php(30): view('admin/sidebar', Array)
+#5 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Paytm/Controllers/Admin/Payment_gateway.php(43): App\Libraries\Template->admin_layout(Array)
+#6 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Paytm\Controllers\Admin\Payment_gateway->form()
+#7 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Paytm\Controllers\Admin\Payment_gateway))
+#8 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-15 01:31:41 --> Class 'App\Modules\Account\Models\customer\Team_model' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Account\Controllers\Customer\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-15 01:49:48 --> Class 'App\Modules\Account\Models\customer\Team_model' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Account\Controllers\Customer\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-15 01:49:52 --> Class 'App\Modules\Account\Models\customer\Team_model' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Account\Controllers\Customer\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-15 02:08:27 --> Class 'App\Modules\Account\Models\customer\Team_model' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Account\Controllers\Customer\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-15 02:09:22 --> Class 'App\Modules\Account\Models\customer\Team_model' not found
+#0 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(899): App\Modules\Account\Controllers\Customer\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-15 02:43:32 --> Undefined variable: profile
+#0 /home/bcoinbdtask/public_html/nishue_main/app/Modules/User/Views/Customer/profile.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/bcoinbdta...', 12, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(246): include('/home/bcoinbdta...')
+#2 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('App\\Modules\\Use...', Array, true)
+#3 /home/bcoinbdtask/public_html/nishue_main/app/Libraries/Template.php(56): view('App\\Modules\\Use...', Array)
+#4 /home/bcoinbdtask/public_html/nishue_main/app/Modules/User/Controllers/Customer/Profile.php(98): App\Libraries\Template->customer_layout(Array)
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\User\Controllers\Customer\Profile->update()
+#6 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\User\Controllers\Customer\Profile))
+#7 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 03:09:56 --> App\Modules\Paypal\Libraries\Payment::payment_process(): Failed opening required '/home/bcoinbdtask/public_html/nishue_main/app/Modules/Paypal/libraries/paypal/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-15 03:39:59 --> App\Modules\Paypal\Libraries\Payment::payment_process(): Failed opening required '/home/bcoinbdtask/public_html/nishue_main/app/Modules/Paypal/libraries/paypal/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-15 04:00:08 --> Undefined variable: routes
+#0 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Website/Config/Routes.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/bcoinbdta...', 42, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/system/Router/RouteCollection.php(751): CodeIgniter\CodeIgniter->{closure}(Object(CodeIgniter\Router\RouteCollection))
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Website/Config/Routes.php(43): CodeIgniter\Router\RouteCollection->group('', Array, Object(Closure))
+#3 /home/bcoinbdtask/public_html/nishue_main/app/Config/Routes.php(47): require_once('/home/bcoinbdta...')
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(788): require('/home/bcoinbdta...')
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(372): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-15 04:59:23 --> syntax error, unexpected ')', expecting ',' or ';'
+#0 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('themes/website_...', Array, true)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Website/Controllers/Home.php(705): view('themes/website_...', Array)
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Website\Controllers\Home->register()
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-15 04:59:54 --> syntax error, unexpected '"?></option>' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+#0 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('themes/website_...', Array, true)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Website/Controllers/Home.php(705): view('themes/website_...', Array)
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Website\Controllers\Home->register()
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-15 05:37:41 --> copy(/home/bcoinbdtask/public_html/nishue_main/app/views/themes/New_theme_1623753461.zip): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'copy(/home/bcoi...', '/home/bcoinbdta...', 174, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Addon/Controllers/Theme.php(174): copy('https://store.b...', '/home/bcoinbdta...')
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Addon\Controllers\Theme->verify_theme_download()
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Addon\Controllers\Theme))
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-15 05:37:58 --> copy(/home/bcoinbdtask/public_html/nishue_main/app/views/themes/New_theme_1623753478.zip): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'copy(/home/bcoi...', '/home/bcoinbdta...', 174, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Addon/Controllers/Theme.php(174): copy('https://store.b...', '/home/bcoinbdta...')
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Addon\Controllers\Theme->verify_theme_download()
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Addon\Controllers\Theme))
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-15 06:28:46 --> copy(/home/bcoinbdtask/public_html/nishue_main/app/views/themes/New_theme_1623756526.zip): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'copy(/home/bcoi...', '/home/bcoinbdta...', 174, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Addon/Controllers/Theme.php(174): copy('https://store.b...', '/home/bcoinbdta...')
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Addon\Controllers\Theme->verify_theme_download()
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Addon\Controllers\Theme))
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-15 06:35:50 --> Invalid file: themes/martbd/index.php
+#0 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/martbd/i...')
+#1 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('themes/martbd/i...', Array, true)
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Website/Controllers/Home.php(31): view('themes/martbd/i...', Array)
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Website\Controllers\Home->index()
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-15 06:36:13 --> Invalid file: themes/martbd/index.php
+#0 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/martbd/i...')
+#1 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('themes/martbd/i...', Array, true)
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Website/Controllers/Home.php(31): view('themes/martbd/i...', Array)
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Website\Controllers\Home->index()
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-15 06:36:18 --> Invalid file: themes/martbd/index.php
+#0 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/martbd/i...')
+#1 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('themes/martbd/i...', Array, true)
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Website/Controllers/Home.php(31): view('themes/martbd/i...', Array)
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Website\Controllers\Home->index()
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-15 06:36:23 --> Invalid file: themes/martbd/index.php
+#0 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/martbd/i...')
+#1 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('themes/martbd/i...', Array, true)
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Website/Controllers/Home.php(31): view('themes/martbd/i...', Array)
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Website\Controllers\Home->index()
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-15 06:36:30 --> Invalid file: themes/martbd/index.php
+#0 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/martbd/i...')
+#1 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('themes/martbd/i...', Array, true)
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Website/Controllers/Home.php(31): view('themes/martbd/i...', Array)
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Website\Controllers\Home->index()
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-15 06:36:41 --> Invalid file: themes/martbd/index.php
+#0 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/martbd/i...')
+#1 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('themes/martbd/i...', Array, true)
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Website/Controllers/Home.php(31): view('themes/martbd/i...', Array)
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Website\Controllers\Home->index()
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-15 06:37:06 --> Invalid file: themes/martbd/index.php
+#0 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/martbd/i...')
+#1 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('themes/martbd/i...', Array, true)
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Website/Controllers/Home.php(31): view('themes/martbd/i...', Array)
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Website\Controllers\Home->index()
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-15 06:37:06 --> Invalid file: themes/martbd/index.php
+#0 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/martbd/i...')
+#1 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('themes/martbd/i...', Array, true)
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Website/Controllers/Home.php(31): view('themes/martbd/i...', Array)
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Website\Controllers\Home->index()
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-15 06:37:06 --> Invalid file: themes/martbd/index.php
+#0 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/martbd/i...')
+#1 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('themes/martbd/i...', Array, true)
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Website/Controllers/Home.php(31): view('themes/martbd/i...', Array)
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Website\Controllers\Home->index()
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-15 06:37:06 --> Invalid file: themes/martbd/index.php
+#0 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/martbd/i...')
+#1 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('themes/martbd/i...', Array, true)
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Website/Controllers/Home.php(31): view('themes/martbd/i...', Array)
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Website\Controllers\Home->index()
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Website\Controllers\Home))
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-15 06:52:00 --> Argument 1 passed to CodeIgniter\Session\Session::push() must be of the type string, array given, called in /home/bcoinbdtask/public_html/nishue_main/app/Modules/User/Controllers/Customer/Profile.php on line 58
+#0 /home/bcoinbdtask/public_html/nishue_main/app/Modules/User/Controllers/Customer/Profile.php(58): CodeIgniter\Session\Session->push(Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\User\Controllers\Customer\Profile->update()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\User\Controllers\Customer\Profile))
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 06:57:13 --> Argument 2 passed to CodeIgniter\Session\Session::push() must be of the type array, string given, called in /home/bcoinbdtask/public_html/nishue_main/app/Modules/User/Controllers/Customer/Profile.php on line 59
+#0 /home/bcoinbdtask/public_html/nishue_main/app/Modules/User/Controllers/Customer/Profile.php(59): CodeIgniter\Session\Session->push('image', '/public/uploads...')
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\User\Controllers\Customer\Profile->update()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\User\Controllers\Customer\Profile))
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 06:59:12 --> Array to string conversion
+#0 /home/bcoinbdtask/public_html/nishue_main/app/Modules/User/Controllers/Customer/Profile.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/bcoinbdta...', 58, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\User\Controllers\Customer\Profile->update()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\User\Controllers\Customer\Profile))
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 07:45:58 --> A non-numeric value encountered
+#0 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Controllers/Customer/Transfer.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/bcoinbdta...', 232, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Controllers/Customer/Transfer.php(428): App\Modules\Finance\Controllers\Customer\Transfer->fees_load('fcgcgcbgcb', 'transfer')
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Controllers/Customer/Transfer.php(112): App\Modules\Finance\Controllers\Customer\Transfer->check_balance('fcgcgcbgcb')
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Finance\Controllers\Customer\Transfer->store()
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Finance\Controllers\Customer\Transfer))
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-15 07:47:11 --> A non-numeric value encountered
+#0 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Controllers/Ajaxload.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/bcoinbdta...', 22, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Finance\Controllers\Ajaxload->fees_load()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Finance\Controllers\Ajaxload))
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 07:48:17 --> A non-numeric value encountered
+#0 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Controllers/Customer/Transfer.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/bcoinbdta...', 232, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Controllers/Customer/Transfer.php(428): App\Modules\Finance\Controllers\Customer\Transfer->fees_load('sdfdfghg', 'transfer')
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Controllers/Customer/Transfer.php(112): App\Modules\Finance\Controllers\Customer\Transfer->check_balance('sdfdfghg')
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Finance\Controllers\Customer\Transfer->store()
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Finance\Controllers\Customer\Transfer))
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-15 07:49:18 --> A non-numeric value encountered
+#0 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Controllers/Customer/Withdraw.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/bcoinbdta...', 247, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Controllers/Customer/Withdraw.php(402): App\Modules\Finance\Controllers\Customer\Withdraw->fees_load('fhfghhhhh', NULL, 'withdraw')
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Controllers/Customer/Withdraw.php(114): App\Modules\Finance\Controllers\Customer\Withdraw->check_balance('fhfghhhhh')
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Finance\Controllers\Customer\Withdraw->store()
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Finance\Controllers\Customer\Withdraw))
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-15 07:51:03 --> A non-numeric value encountered
+#0 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Controllers/Customer/Transfer.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/bcoinbdta...', 232, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Controllers/Customer/Transfer.php(428): App\Modules\Finance\Controllers\Customer\Transfer->fees_load('ghjgjgjkgj', 'transfer')
+#2 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Controllers/Customer/Transfer.php(112): App\Modules\Finance\Controllers\Customer\Transfer->check_balance('ghjgjgjkgj')
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Finance\Controllers\Customer\Transfer->store()
+#4 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Finance\Controllers\Customer\Transfer))
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-15 07:55:22 --> Undefined variable: payment_gateway
+#0 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Views/Customer/Withdraw/withdraw.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/bcoinbdta...', 33, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(246): include('/home/bcoinbdta...')
+#2 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('App\\Modules\\Fin...', Array, true)
+#3 /home/bcoinbdtask/public_html/nishue_main/app/Libraries/Template.php(56): view('App\\Modules\\Fin...', Array)
+#4 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Controllers/Customer/Withdraw.php(228): App\Libraries\Template->customer_layout(Array)
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Finance\Controllers\Customer\Withdraw->store()
+#6 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Finance\Controllers\Customer\Withdraw))
+#7 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 07:55:47 --> Undefined variable: payment_gateway
+#0 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Views/Customer/Withdraw/withdraw.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/bcoinbdta...', 33, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(246): include('/home/bcoinbdta...')
+#2 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('App\\Modules\\Fin...', Array, true)
+#3 /home/bcoinbdtask/public_html/nishue_main/app/Libraries/Template.php(56): view('App\\Modules\\Fin...', Array)
+#4 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Controllers/Customer/Withdraw.php(228): App\Libraries\Template->customer_layout(Array)
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Finance\Controllers\Customer\Withdraw->store()
+#6 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Finance\Controllers\Customer\Withdraw))
+#7 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 07:56:20 --> Undefined variable: payment_gateway
+#0 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Views/Customer/Withdraw/withdraw.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/bcoinbdta...', 33, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(246): include('/home/bcoinbdta...')
+#2 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('App\\Modules\\Fin...', Array, true)
+#3 /home/bcoinbdtask/public_html/nishue_main/app/Libraries/Template.php(56): view('App\\Modules\\Fin...', Array)
+#4 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Controllers/Customer/Withdraw.php(228): App\Libraries\Template->customer_layout(Array)
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Finance\Controllers\Customer\Withdraw->store()
+#6 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Finance\Controllers\Customer\Withdraw))
+#7 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 07:57:53 --> Undefined variable: payment_gateway
+#0 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Views/Customer/Withdraw/withdraw.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/bcoinbdta...', 33, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(246): include('/home/bcoinbdta...')
+#2 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('App\\Modules\\Fin...', Array, true)
+#3 /home/bcoinbdtask/public_html/nishue_main/app/Libraries/Template.php(56): view('App\\Modules\\Fin...', Array)
+#4 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Controllers/Customer/Withdraw.php(228): App\Libraries\Template->customer_layout(Array)
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Finance\Controllers\Customer\Withdraw->store()
+#6 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Finance\Controllers\Customer\Withdraw))
+#7 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 08:10:35 --> Undefined variable: payment_gateway
+#0 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Views/Customer/Withdraw/withdraw.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/bcoinbdta...', 33, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(246): include('/home/bcoinbdta...')
+#2 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('App\\Modules\\Fin...', Array, true)
+#3 /home/bcoinbdtask/public_html/nishue_main/app/Libraries/Template.php(56): view('App\\Modules\\Fin...', Array)
+#4 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Controllers/Customer/Withdraw.php(228): App\Libraries\Template->customer_layout(Array)
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Finance\Controllers\Customer\Withdraw->store()
+#6 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Finance\Controllers\Customer\Withdraw))
+#7 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 08:10:57 --> Undefined variable: payment_gateway
+#0 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Views/Customer/Withdraw/withdraw.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/bcoinbdta...', 33, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(246): include('/home/bcoinbdta...')
+#2 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('App\\Modules\\Fin...', Array, true)
+#3 /home/bcoinbdtask/public_html/nishue_main/app/Libraries/Template.php(56): view('App\\Modules\\Fin...', Array)
+#4 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Controllers/Customer/Withdraw.php(228): App\Libraries\Template->customer_layout(Array)
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Finance\Controllers\Customer\Withdraw->store()
+#6 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Finance\Controllers\Customer\Withdraw))
+#7 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 08:12:27 --> Undefined variable: payment_gateway
+#0 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Views/Customer/Withdraw/withdraw.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/bcoinbdta...', 33, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(246): include('/home/bcoinbdta...')
+#2 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('App\\Modules\\Fin...', Array, true)
+#3 /home/bcoinbdtask/public_html/nishue_main/app/Libraries/Template.php(56): view('App\\Modules\\Fin...', Array)
+#4 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Controllers/Customer/Withdraw.php(228): App\Libraries\Template->customer_layout(Array)
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Finance\Controllers\Customer\Withdraw->store()
+#6 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Finance\Controllers\Customer\Withdraw))
+#7 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 08:13:03 --> Undefined variable: payment_gateway
+#0 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Views/Customer/Withdraw/withdraw.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/bcoinbdta...', 33, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/system/View/View.php(246): include('/home/bcoinbdta...')
+#2 /home/bcoinbdtask/public_html/nishue_main/system/Common.php(1119): CodeIgniter\View\View->render('App\\Modules\\Fin...', Array, true)
+#3 /home/bcoinbdtask/public_html/nishue_main/app/Libraries/Template.php(56): view('App\\Modules\\Fin...', Array)
+#4 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Controllers/Customer/Withdraw.php(228): App\Libraries\Template->customer_layout(Array)
+#5 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Finance\Controllers\Customer\Withdraw->store()
+#6 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Finance\Controllers\Customer\Withdraw))
+#7 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 08:16:17 --> Undefined variable: error
+#0 /home/bcoinbdtask/public_html/nishue_main/app/Modules/Finance/Controllers/Customer/Withdraw.php(226): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/bcoinbdta...', 226, Array)
+#1 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(926): App\Modules\Finance\Controllers\Customer\Withdraw->store()
+#2 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Finance\Controllers\Customer\Withdraw))
+#3 /home/bcoinbdtask/public_html/nishue_main/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/bcoinbdtask/public_html/nishue_main/index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}

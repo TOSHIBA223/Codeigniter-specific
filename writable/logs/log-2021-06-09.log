@@ -1,0 +1,210 @@
+CRITICAL - 2021-06-09 06:02:28 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\nishue_main\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\nishue_main\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `cat_id`...', Array, false)
+#2 C:\xampp\htdocs\nishue_main\app\Modules\Common\Models\Website\Web_model.php(129): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\nishue_main\app\Modules\Common\Controllers\Website\Home.php(11): App\Modules\Common\Models\Website\Web_model->catidBySlug('service')
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Common\Controllers\Website\Home->index()
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Common\Controllers\Website\Home))
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-09 06:02:28 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\nishue_main\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\nishue_main\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Modules\Common\Controllers\Website\Home), true)
+#2 C:\xampp\htdocs\nishue_main\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-09 06:03:04 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\nishue_main\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\nishue_main\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `cat_id`...', Array, false)
+#2 C:\xampp\htdocs\nishue_main\app\Modules\Common\Models\Website\Web_model.php(129): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\nishue_main\app\Modules\Common\Controllers\Website\Home.php(11): App\Modules\Common\Models\Website\Web_model->catidBySlug('service')
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Common\Controllers\Website\Home->index()
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Common\Controllers\Website\Home))
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-09 06:03:04 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\nishue_main\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\nishue_main\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Modules\Common\Controllers\Website\Home), true)
+#2 C:\xampp\htdocs\nishue_main\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-09 06:04:06 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\nishue_main\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\nishue_main\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `cat_id`...', Array, false)
+#2 C:\xampp\htdocs\nishue_main\app\Modules\Common\Models\Website\Web_model.php(129): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\nishue_main\app\Modules\Common\Controllers\Website\Home.php(11): App\Modules\Common\Models\Website\Web_model->catidBySlug('service')
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Common\Controllers\Website\Home->index()
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Common\Controllers\Website\Home))
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-09 06:04:06 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\nishue_main\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\nishue_main\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Modules\Common\Controllers\Website\Home), true)
+#2 C:\xampp\htdocs\nishue_main\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-09 06:04:11 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\nishue_main\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\nishue_main\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\nishue_main\app\Helpers\lang_helper.php(27): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\nishue_main\app\Modules\Auth\Controllers\Admin\Auth.php(18): display('admin')
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Auth\Controllers\Admin\Auth->index()
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Auth\Controllers\Admin\Auth))
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-09 06:04:11 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\nishue_main\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\nishue_main\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Modules\Auth\Controllers\Admin\Auth), true)
+#2 C:\xampp\htdocs\nishue_main\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-09 06:04:15 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\nishue_main\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\nishue_main\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\nishue_main\app\Helpers\lang_helper.php(27): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\nishue_main\app\Modules\Auth\Controllers\Admin\Auth.php(18): display('admin')
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Auth\Controllers\Admin\Auth->index()
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Auth\Controllers\Admin\Auth))
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-09 06:04:15 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\nishue_main\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\nishue_main\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Modules\Auth\Controllers\Admin\Auth), true)
+#2 C:\xampp\htdocs\nishue_main\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-09 06:06:08 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\nishue_main\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\nishue_main\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\nishue_main\app\Helpers\lang_helper.php(27): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\nishue_main\app\Modules\Auth\Controllers\Admin\Auth.php(18): display('admin')
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Auth\Controllers\Admin\Auth->index()
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Auth\Controllers\Admin\Auth))
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-09 06:06:08 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\nishue_main\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\nishue_main\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Modules\Auth\Controllers\Admin\Auth), true)
+#2 C:\xampp\htdocs\nishue_main\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-09 06:06:16 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\nishue_main\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\nishue_main\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `cat_id`...', Array, false)
+#2 C:\xampp\htdocs\nishue_main\app\Modules\Common\Models\Website\Web_model.php(129): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\nishue_main\app\Modules\Common\Controllers\Website\Home.php(94): App\Modules\Common\Models\Website\Web_model->catidBySlug('contact')
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Common\Controllers\Website\Home->contact()
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Common\Controllers\Website\Home))
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-09 06:06:16 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\nishue_main\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\nishue_main\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Modules\Common\Controllers\Website\Home), true)
+#2 C:\xampp\htdocs\nishue_main\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-09 06:06:23 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\nishue_main\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\nishue_main\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\nishue_main\app\Helpers\lang_helper.php(27): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\nishue_main\app\Modules\Auth\Controllers\Admin\Auth.php(18): display('admin')
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Auth\Controllers\Admin\Auth->index()
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Auth\Controllers\Admin\Auth))
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-09 06:06:23 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\nishue_main\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\nishue_main\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Modules\Auth\Controllers\Admin\Auth), true)
+#2 C:\xampp\htdocs\nishue_main\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-09 06:06:37 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\nishue_main\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\nishue_main\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `cat_id`...', Array, false)
+#2 C:\xampp\htdocs\nishue_main\app\Modules\Common\Models\Website\Web_model.php(129): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\nishue_main\app\Modules\Common\Controllers\Website\Home.php(11): App\Modules\Common\Models\Website\Web_model->catidBySlug('service')
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Common\Controllers\Website\Home->index()
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Common\Controllers\Website\Home))
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-09 06:06:37 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\nishue_main\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\nishue_main\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Modules\Common\Controllers\Website\Home), true)
+#2 C:\xampp\htdocs\nishue_main\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-09 06:10:17 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\nishue_main\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\nishue_main\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `cat_id`...', Array, false)
+#2 C:\xampp\htdocs\nishue_main\app\Modules\Common\Models\Website\Web_model.php(129): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\nishue_main\app\Modules\Common\Controllers\Website\Home.php(11): App\Modules\Common\Models\Website\Web_model->catidBySlug('service')
+#4 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(926): App\Modules\Common\Controllers\Website\Home->index()
+#5 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Common\Controllers\Website\Home))
+#6 C:\xampp\htdocs\nishue_main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nishue_main\index.php(65): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-09 06:10:17 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\nishue_main\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\nishue_main\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Modules\Common\Controllers\Website\Home), true)
+#2 C:\xampp\htdocs\nishue_main\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nishue_main\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
